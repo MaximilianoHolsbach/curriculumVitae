@@ -1,0 +1,119 @@
+<!--
+    codeopen sitio para ejemplos html
+    jsbin sitio para ejemplos java script
+El DOCTYPE es la declaración de la versión del html que se utilizara. 
+
+ * Todos los elementos deben ir dentro de la etiqueta html. 
+ * En la etiqueta head van todos los metadatos de la página. 
+ * Toda página debe tener una etiqueta title. 
+ * La etiqueta meta se utiliza para especificar los metadatos y codificación del conjunto de caracteres. 
+ * La etiqueta body contiene lo que se mostrara en la página. 
+Lo que diferencia a un metadato de un dato es el hecho de que no son la información central. 
+
+Con color picker consultamos colores para nuestros sitios web
+
+Los margenes se modifican con la propiedad margin y padding
+
+Las listas ordenadas se definen con 
+<ol>
+    <li></li>
+</ol>
+
+Listas desordenadas
+<ul>
+    <li></li>
+</ul>
+
+listas de difiniciones
+<dl>
+    <dt>Universidad</dt>
+    <dd> 2012 - 2015 </dd>
+</dl>
+
+Colocar nuestro sitio en la web:
+
+Los profesionales tienen costos, los cuales son:
+ * HOSTING
+ * DOMINIO
+El precio de los servicios depende del espacio de almacenamiento y tipo de dominio como ser .com, .edu, etc
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curriculumVitae</title>
+</head>
+<!--El atributo margin agrega mergen o lo quita de nuestros elementos del body-->
+<body style="font-family:Arial, Helvetica, sans-serif; margin: 0;">
+    <!--El atributo padding agrega espacio o tamaño a nuestros elementos a los cuales se les aplique-->
+    <header style="background-color: #01443F; color: white; text-align: center; padding:16px;">
+        <h1 style="display:inline-block; width: 400px; font-weight: 700; ">CV de Andrés M Holsbach</h1>
+        <p style="display:inline-block; width: 400px; font-weight: 200; ">Supervisor técnico de hardware y software</p>
+    </header>
+    <div style="background-color: #C6F9F6; color:black;  padding:8px;">
+        Cuento con once años de experiencia en el diagnóstico, mantenimiento y reparación de equipos multifuncionales. Actualmente administro equipos de trabajo en las áreas de digitalización de archivos, y repación de hardware. 
+    </div>
+    <!--La etiqueta section tiene como fin separar los elementos de nuestro html-->
+    <section>
+        <div style="width: 960px; margin-left:auto; margin-right:auto;">
+            <div>
+                <div style="display:inline-block; width:60%; margin-top: 20px; vertical-align:top">
+                    <h3 style="font-size:36px; font-weight: 700;">Education</h3>
+                    <div>
+                        <dl>
+                            <dt style="font-size:22px; text-transform: uppercase; margin-bottom: 12px; margin-top: 36px; ">Técnico en eléctronica</dt>
+                            <dd> 2002 - 2008. Secundaria técnica de Barranqueras</dd>
+                            <dt style="font-size:22px; text-transform: uppercase; margin-bottom: 12px; margin-top: 36px; ">Técnico reparador</dt>
+                            <dd>2010-2011. Ricoh University</dd>
+                            <dt style="font-size:22px; text-transform: uppercase; margin-bottom: 12px; margin-top: 36px; ">Técnico de Pc</dt>
+                            <dd>2011-2012. Cisco University</dd>
+                            <dt style="font-size:22px; text-transform: uppercase; margin-bottom: 12px; margin-top: 36px; ">Desarrollador en Python, y Java script</dt>
+                            <dd>2019-2022. Coder-House University</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div style="display:inline-block; width: 30%; margin-top: 20px; vertical-align:top">
+                    <img src="images/programacion.png" width="300">
+                </div>
+                <div style="margin-top: 20px;">
+                    <h3 style="font-size:36px; font-weight: 700;">Experiencia Profecional</h3>
+                    <div>
+                        <dl>
+                            <dt style="font-size:22px; text-transform: uppercase; margin-bottom: 12px; margin-top: 36px; ">Técnico en reparador</dt>
+                            <dd> 2010 - 2015. Komsa s.a</dd>
+                            <dt style="font-size:22px; text-transform: uppercase; margin-bottom: 12px; margin-top: 36px; ">Técnico de diagnósticos</dt>
+                            <dd>2015-2018 Komsa s.a</dd>
+                            <dt style="font-size:22px; text-transform: uppercase; margin-bottom: 12px; margin-top: 36px; ">Técnico de software</dt>
+                            <dd>2018-2020 Komsa s.a</dd>
+                            <dt style="font-size:22px; text-transform: uppercase; margin-bottom: 12px; margin-top: 36px; ">Supervisor de digitalización</dt>
+                            <dd>2021-2022. Komsa s.a - R.P.I Corrientes - COA - Intelidata</dd>
+                        </dl> 
+                    </div>
+                </div>
+                <div style="margin-top: 20px;">
+                    <h3 style="font-size:36px; font-weight: 700;">Otros</h3>
+                    <div>
+                        <ul style="margin-top: 20px;">
+                            <li style="margin-top: 16px;">Conocimiento de ingles</li>
+                            <li style="margin-top: 16px;">Manejo de ofimática</li>
+                            <li style="margin-top: 16px;">Gestión de equipos de trabajo</li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="margin-top: 20px;">
+                    <h3 style="font-size:36px; font-weight: 700;">Cuentas sociales</h3>
+                    <div>
+                        <ul style="margin-top: 20px;">
+                            <li style="margin-top: 16px;"><a href="https://github.com/MaximilianoHolsbach" target="_blank">github</a></li>
+                            <li style="margin-top: 16px;"><a href="https://www.instagram.com/maxiholsbach" target="_blank">instagram</a></li>
+                            <li style="margin-top: 16px;"><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
